@@ -1,0 +1,233 @@
+
+<!-- Latest Post Preview Start -->
+
+<style>
+
+th {
+  font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  background-color: #2f2f2f;
+}
+
+th, td {
+  font-size: 18px;
+  text-align: left;
+}
+
+tr.pres {
+  background-color: #001a33;
+  color: #cce5ff;
+}
+
+</style>
+
+<section id="{{ page.section-type }}" class="container content-section text-center">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+
+        {{ page.content | markdownify }}
+
+        <!--{% assign post = site.posts.first %}
+        <h4> <strong> {{ post.date | date_to_string }} </strong>
+          <small>.
+            <a class="category" href="{{site.baseurl}}/categories/{{post.category | downcase}}.html">
+              {{ post.category }}
+            </a>
+          .</small>
+          <strong> <a href="{{site.baseurl}}{{ post.url }}">{{post.title}} </a> </strong>
+          <small> <a href="{{site.baseurl}}{{post.url}}#disqus_thread">Comments</a></small>
+        </h4>
+
+        <section class="text-justify">
+          {{ post.content | strip_html | markdownify | truncatewords: site.post-preview-words }}
+        </section>
+
+        <h4><a href="{{site.baseurl}}/blog/">Archive</a></h4>-->
+
+        <div>
+          <table class="table">
+            <tr>
+              <th>Event Type</th><th>Date</th><th>Description</th><th>Materials</th>
+            </tr>
+            <tr>
+              <td>Seminar 1</td>
+              <td>3/8</td>
+              <td>
+                <b>The Periodic Table</b><br>
+                - 세미나 소개<br>
+                - 주기율표<br>
+
+              </td>
+              <td>
+                <a href=".">[slides]</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Seminar 2</td>
+              <td>3/15</td>
+              <td>
+                <b>"Chemical Revolution" : From Alchemy to Mendeleev</b><br>
+                - 과학, 과학혁명, 화학, 화학혁명<br>
+                - 연금술 개론<br>
+                - 산소의 발견&ndash;발명?<br>
+                - 오늘의 화학자들, 오늘의 연금술사들
+              </td>
+              <td>
+                <a href=".">[slides]</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Seminar 3</td>
+              <td>3/22</td>
+              <td>
+                <b>Chemistry to Kill</b><br>
+                - 화학 무기<br>
+                - 마약<br>
+                - 독극물<br>
+                - Chemophobia
+              </td>
+              <td>
+                <a href=".">[slides]</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Seminar 4</td>
+              <td>3/29</td>
+              <td>
+                <b>Symmetry</b><br>
+                - 가능과 불가능<br>
+                - 반대칭성<br>
+                - 대칭 깨뜨리기<br>
+                - 꼬임
+              </td>
+              <td>
+                <a href=".">[slides]</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Seminar 5</td>
+              <td>4/5</td>
+              <td>
+                <b>Naming Chemicals</b><br>
+                - 이름 짓기<br>
+                - 명명법
+              </td>
+              <td>
+                <a href=".">[slides]</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Seminar 6</td>
+              <td>4/12</td>
+              <td>
+                <b>The Orbital Controversy</b><br>
+                - 오비탈?<br>
+                - 오비탈 논쟁<br>
+                - 화학과 환원주의
+              </td>
+              <td>
+                <a href=".">[slides]</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Seminar 7</td>
+              <td>4/19</td>
+              <td>
+                <b>Bonding and Aromaticity</b><br>
+                - 결합 이론<br>
+                - 어디까지가 결합인가?<br>
+                - 방향성
+              </td>
+              <td>
+                <a href=".">[slides]</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Seminar 8</td>
+              <td>4/26</td>
+              <td>
+                <b>Inventing Temperature</b><br>
+                - 아리스토텔레스부터 캐번디시까지<br>
+                - 규준적 측정 문제<br>
+                - 표준 이어붙이기<br>
+                - 열역학과 “절대온도”<br>
+                - 데굴데굴, 자가 교정으로 발전하는 과학
+              </td>
+              <td>
+                <a href=".">[slides]</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Seminar 9</td>
+              <td>5/3</td>
+              <td>
+                <b>Is Water H<sub>2</sub>O?</b><br>
+                - 물은 답을 알고 있다<br>
+                - 전기분해<br>
+                - 원자의 "개수 세기"<br>
+                - 물에 대한 오늘날의 시각
+              </td>
+              <td>
+                <a href=".">[slides]</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Seminar 10</td>
+              <td>5/10</td>
+              <td>
+                <b>"Mechanism" of the reaction</b><br>
+                - 메커니즘이란?<br>
+                - 메커니즘의 실재성<br>
+                - 메커니즘의 역사<br>
+                - 메커니즘 확인에 사용되는 방법<br>
+                - 다양한 메커니즘들
+              </td>
+              <td>
+                <a href=".">[slides]</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Seminar 11</td>
+              <td>5/17</td>
+              <td>
+                <b>Logic of Synthesis</b><br>
+                - 합성이란?<br>
+                - 합성의 역사<br>
+                - 합성의 종류, 과정, 확인<br>
+                - 합성 디자인하기<br>
+                - 합성의 미래와 의의
+              </td>
+              <td>
+                <a href=".">[slides]</a>
+              </td>
+            </tr>
+            <tr class="pres">
+              <td>Seminar 12</td>
+              <td>5/24</td>
+              <td>
+                <b>Presentation</b><br>
+                - 자유 발표
+              </td>
+              <td>
+                <a href=".">[slides]</a>
+              </td>
+            </tr>
+            <tr>
+              <td>Seminar 13</td>
+              <td>5/31</td>
+              <td>
+                <b>Closing</b><br>
+                - 다시 보는 질문들<br>
+                - 우리가 갈 길은?
+              </td>
+              <td>
+                <a href=".">[slides]</a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- Latest Post Preview End -->

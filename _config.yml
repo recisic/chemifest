@@ -1,0 +1,226 @@
+
+# Site settings
+
+# NB! Set your site's url, otherwise stuff will break :)
+
+url: "https://recisic.github.io"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (https://yourusername.github.io/repository-name)
+# and NOT your user repository (https://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+#
+# NB! Without this *nothing* will work, because it's used in every path :)
+
+baseurl: "/chemifest"
+
+# Google tracking id
+
+google-tracking-id: ""
+
+# Forces https everywhere in your website, except when you serve it locally
+# If you are not hosted on Github Pages, and your host doesn't support https
+# then you should disable it
+
+force-https: True
+
+#############
+# HTML Head #
+#############
+
+lang: "en"
+author: "Chemifest"
+title: "Chemifest"
+description: "화학적 사유, Chemifest."
+keywords: "Chemistry"
+favicon: "/img/favicon.ico"
+
+################
+# Header layout #
+################
+
+black-favicon: "/img/black-lab-glass.ico"
+
+background-img: "../img/intro-bg.jpg"
+
+##############################
+# Dynamic Text on the Header #
+##############################
+
+dynamic-typing: True
+shuffle: True # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 5
+start-delay: 200
+delete-delay: 5000
+lines: # You can add HTML Tags in the Text
+  - text: "너희들이 바로 신인 것을 모르느냐?"
+  - text: "It is only through science and art that civilization is of value."
+  - text: "현재 세계의 모든 면들은 - 정치학, 외교에 이르기까지 - 화학의 영향을 받고 있다."
+
+me-img: ""
+
+# To use facebook profile pic comment the previous line and uncomment the following
+# line, and replace 'user_id' with your facebook user id.
+# Facebook user id can be found by clicking on your profile pic and the large number
+# in the end of the url just before '&type' is your user id.
+# Note: fbid is not the same as user id and user id only contains numbers
+
+# me-img: "https://graph.facebook.com/user_id/picture?type=large&width=500&height=500"
+
+# To use github profile pic uncomment the following line and replace 'user_name'
+# with your github user name.
+
+# me-img: "https://github.com/user_name.png?size=500"
+
+# To use gravatar profile pic uncomment the following line and replace 'email_hash'
+# with your gravatar profile email hash.
+# You can create the email hash by using an online tool like 'http://www.md5hashgenerator.com/'
+# just enter your email and it will generate the hash.
+
+# me-img: "https://www.gravatar.com/avatar/email_hash?s=500"
+
+##############################
+# Color the browser elements #
+##############################
+color-browser: "#ffffff"
+apple-status-bar-style: "white"
+
+################
+# Web app mode #
+################
+
+web-app-mode: False
+
+# Icons for Web App mode
+
+# icon-36p: "/img/web-app/icon-36p.png"
+# icon-48p: "/img/web-app/icon-48p.png"
+# icon-72p: "/img/web-app/icon-72p.png"
+# icon-96p: "/img/web-app/icon-96p.png"
+# icon-144p: "/img/web-app/icon-144p.png"
+# icon-192p: "/img/web-app/icon-192p.png"
+
+########
+# Blog #
+########
+
+enable-gesture-navigation: True
+
+post-preview-words: 96
+
+paginate: 5
+
+email-share: True
+fb-share: True
+twitter-share: True
+linkedin-share: True
+reddit-share: True
+google-plus-share: True
+tumblr-share: True
+pinterest-share: True
+pocket-share: True
+vkontakte-share: True
+
+disqus-shortname: "chemifest"
+
+syntax-highlight: True
+
+############
+# Timeline #
+############
+
+events:
+  - image: "/img/timeline/ilhwan.jpg"
+    date: "Ilhwan Kong"
+    description: "한쪽 발은 화학에, 다른 쪽 발은 미학에 두고 있어요. 둘 다 창조의 본질에 가까이 가는 학문이라 사랑하고 있습니다. 언젠가 전에 없던 세상을 만들 수 있기를 바라며, 지금은 연극을 보고 또 만듭니다. 건강한 퇴폐주의를 추구해요."
+  - image: "/img/timeline/yubeen.png"
+    date: "Yu Been Kim"
+    description: "딱히 되고 싶은 건 없지만, 해보고 싶은 건 많아 생각보다 바쁘게 살고 있습니다.<br>지금까지 유심히 관찰해본 결과 천성이 학자는 아닌 것 같은데, 학문이라는게 배우면 배울수록 빠져드는 면이 있어 자연스레 화학에 빠져들고 있네요. 요즘은 좋은 음악을 듣는게 취미라, 좋은 노래 있으면 추천해주세요."
+  - image: "/img/timeline/juno.png"
+    date: "Juno Nam"
+    description: "화학을 중심으로 수학, 물리학, 컴퓨터 공학의 여러 분야들을 탐색하고 있습니다. 화학은 그 사이 어디에 있을까를 고민하며 공부하고 있습니다.<br>갈 길은 멀고 할 일은 많지만 그래도 지금 하고 있는 일이 재밌으니 행복합니다."
+  - image: "/img/timeline/lee.jpg"
+    date: "Dongwhan Lee"
+    description: "새로운 것을 찾는 재미를 즐기는 만큼, 한 가지 일을 지근덕하게 붙잡고 하지 못한다는 심각한 문제를 늘 안고 삽니다. 남들 만큼은 공부했다고 생각했는데, 아직도 모르는 것이 너무나 많이 남아 있는 화학을 택한 것이 그나마 다행입니다. 적어도 지금까지는."
+
+# First image of the Timeline
+
+timeline-img: "/img/timeline/default.png"
+
+###########
+# Contact #
+###########
+
+email: ""
+
+################
+# Author Blurb #
+################
+
+# The author blurb goes underneath blog posts.
+# This works best when your author blurb image has a transparent background, or matches your site background color.
+
+# if the author_blurb is not set, then this feature is skipped
+author_blurb: ""
+author_blurb_image: ""
+
+##################
+# Social Buttons #
+##################
+
+#social:
+#  - title: "facebook"
+#    url: "https://facebook.com/"
+#  - title: "twitter"
+#    url: "https://twitter.com/"
+#  - title: "github"
+#    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
+#  - title: "bitcoin"
+#    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+#  - title: "rss"
+#    url: "/feed.xml"
+
+############
+# 404 page #
+############
+
+err-404-img: ""
+
+##################
+# GPG on Keybase #
+##################
+
+keybase-username: 
+keybase-in-social: False
+keybase-in-footer: False
+
+################################################################################
+
+# NB! Tread carefully if you want to change the variables below this point!
+
+# Sections shown in the index page
+
+pages_list:
+  About: 'about'
+  Schedule: 'latest-post'
+  Facilitators: 'timeline'
+  Contact: 'contact'
+
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+
+# Pagination path
+
+paginate_path: "blog/page:num/"
+
+# Enable minification SASS
+
+sass:
+  style: compressed
+
+gems:
+  - jekyll-paginate
+  - jemoji
